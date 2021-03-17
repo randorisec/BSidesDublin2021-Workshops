@@ -22,7 +22,7 @@ If you want to follow those workshops, you need to use a Virtual Machine (or a p
 
 For the attendees of BSides Dublin, you have to perform the following actions **BEFORE** the workshop:
 
-1. Install VMWare Player(**DO NOT USE VirtualBox!!**)
+### 1. Install VMWare Player(**DO NOT USE VirtualBox!!**)
 
 For PC users, you can use the free version of VMWare Player (or VMWare Workstation if you have a valid license key):
 
@@ -32,19 +32,19 @@ For Mac users, you should use VMWare Fusion:
 
 * [VMWare Fusion](https://www.vmware.com/products/fusion/fusion-evaluation.html)
 
-1. Download **Mobexler** virtual machine (credentials: Mobexler/12345)
+### 2. Download **Mobexler** virtual machine (credentials: Mobexler/12345)
 
 * https://mobexler.com/download.htm
 
-1. Import the OVA file with VMware
+### 3. Import the OVA file with VMware
 
 If an error message appears saying the OVA file didn't pass the OVF specifications, please click `Retry`. It should work :)
 
-1. Enable "Virtualize Intel VT-x/EPT or AMD-V/RVI"
+### 4. Enable "Virtualize Intel VT-x/EPT or AMD-V/RVI"
 
 After the import of the OVA file, you have to edit the Virtual Machine hardware settings of the Mobexler machine in order to enable **Virtualize Intel VT-x/EPT or AMD-V/RVI**.
 
-1. Enable KVM permission for Mobexler user
+### 5. Enable KVM permission for Mobexler user
 
 Boot the virtual machine and then you need to execute the following commands:
 
@@ -63,7 +63,7 @@ sudo apt install open-vm-tools-desktop
 
 Do NOT forget to reboot the virtual machine before going to the next step.
 
-1. Create an Android Virtual Device with Android Studio
+### 6. Create an Android Virtual Device with Android Studio
 
 **DO NOT LAUNCH Android Studio with the GUI but instead with the terminal**. The Android Studio program needs to be executed with Mobexler privileges.
 Here is the command to execute:
