@@ -77,7 +77,7 @@ Then, you can create an Android emulator with the `AVD Manager`. For this worksh
 * Hardware: Nexus 5X
 * System image
   * Release name: Nougat
-  * API Level: 21
+  * API Level: 25
   * ABI: x86_64
   * Target: Android 7.1.1 (Google APIs)
 * Name: Nougat
